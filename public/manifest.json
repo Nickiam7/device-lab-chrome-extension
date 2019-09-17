@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Device Lab",
+  "author": "Nick McNeany",
+  "version": "1.0.1",
+  "description": "Easily send sites to the Device Lab",
+	"icons": {"128": "icon_128.png"},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "tabs"],
+  "short_name": "Device Lab Chrome Extension",
+  "name": "Device Lab Chrome Extension",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

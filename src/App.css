@@ -1,0 +1,40 @@
+/** General **/
+body {
+	width: 550px;
+	height:175px;
+}
+a,
+.navbar-brand {
+	color: #007db7;
+	width: 100%;
+}
+.btn-primary {
+	background: #007db7;
+}
+.btn {
+	border-radius: 1px;
+}
+.form-control {
+	border-radius: 1px;	
+}
+.box-shadow {
+	box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12);
+}
+.card {
+	border-radius: 1px;
+}
+.list-group {
+	border-radius: 1px;
+}
+.card>.list-group:first-child .list-group-item:first-child {
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+}
+.card>.list-group:last-child .list-group-item:last-child {
+	border-bottom-right-radius: 1px;
+	border-bottom-left-radius: 1px;
+}
+/**AddSite**/
+.addTitle {
+	cursor: pointer;
+}
