@@ -5,12 +5,12 @@ import { reactReduxFirebase, firebaseReducer } from 'react-redux-firebase'
 import { reduxFirestore, firestoreReducer } from 'redux-firestore'
 
 const firebaseConfig = {
-	apiKey: "AIzaSyBv-pI5zyV9Axilff4UV-O0ngicmZfn70A",
-	authDomain: "device-lab-e5413.firebaseapp.com",
-	databaseURL: "https://device-lab-e5413.firebaseio.com",
-	projectId: "device-lab-e5413",
-	storageBucket: "device-lab-e5413.appspot.com",
-	messagingSenderId: "590284670042"	
+	apiKey: process.env.API_KEY,
+	authDomain: process.env.AUTH_DOMAIN,
+	databaseURL: process.env.DB_URL,
+	projectId: process.env.PROJECT_ID,
+	storageBucket: process.env.STORAGE_BUCKET,
+	messagingSenderId: process.env.MESSAGING_SENDER_ID	
 }
 
 const rrfConfig = {

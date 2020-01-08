@@ -10,20 +10,20 @@ import AddSite from './components/sites/AddSite'
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-    	<Provider store={store}>
-    	<Router>
-	      <div className="App">
-					<Navbar />
-					<div className="container">
-						<AddSite />						
-		      </div>
-	      </div>
-      </Router>
-      </Provider>
-    );
-  }
+	render() {
+		return (
+			<Provider store={store}>
+				<Router>
+					<div className="App">
+						<Navbar />
+						<div className="container">
+							<AddSite />						
+						</div>
+					</div>
+				</Router>
+			</Provider>
+		);
+	}
 }
 
 export default App
